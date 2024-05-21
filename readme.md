@@ -19,7 +19,6 @@ This repository contains the code for the "Generative AI for Dialogue Summarizat
   - [Qualitative Evaluation (PEFT)](#qualitative-evaluation-peft)
   - [Quantitative Evaluation (PEFT)](#quantitative-evaluation-peft)
 - [Conclusion](#conclusion)
-- [References](#references)
 
 ## Overview
 In this lab, you will explore two approaches to fine-tuning a large language model for dialogue summarization: full fine-tuning and PEFT. Full fine-tuning involves training the entire model, while PEFT focuses on training a smaller adapter layer, resulting in reduced computational resources and memory usage.
@@ -62,7 +61,3 @@ In this lab, you will explore two approaches to fine-tuning a large language mod
 
 ## Conclusion
 This lab demonstrates the effectiveness of PEFT in fine-tuning large language models for dialogue summarization tasks. By leveraging PEFT, practitioners can achieve comparable summarization quality while reducing computational and memory requirements.
-
-## References
-- Hugging Face Transformers Documentation: [https://huggingface.co/transformers/](https://huggingface.co/transformers/)
-- Deep Learning AI Courses on Coursera: [https://www.coursera.org/specializations/deep-learning](https://www.coursera.org/specializations/deep-learning)
